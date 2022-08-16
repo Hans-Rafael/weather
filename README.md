@@ -1,4 +1,38 @@
 ## Henry Weather
+<table>
+<tr>
+<td><img align="center"  alt="Español" src="https://hans-rafael.github.io/img/Spain.png" height="30" /><br></td><td><img align = "center" alt="English"  src="https://hans-rafael.github.io/img/uk.png" height="30" />
+<br>
+</td>
+</tr>
+<td>
+<h3 align="left">
+Aplicacion que gracias a la informacion obtenida de la api (https://openweathermap.org) es posible buscar una ciudad y obtener datos del clima los que se utilizan para render izar unas cartas con los valores de temperatura y nubosidad del mismo con un pequeño icono que refleja el estado actual.<br>
+<b>Tecnologias trabajadas:</b><br>
+-javaScript
+-react
+-css
+-html
+-react-dom
+-react-scripts
+</h3>
+</td>
+<td>
+<h3 align = "left">
+Application that thanks to the information obtained from the api (https://openweathermap.org) it is possible to search for a city and obtain weather data which is used to render charts with the temperature and cloudiness values of the same with a small icon reflecting the current state.<br>
+<b>Employed technologies:</b><br>
+-javaScript
+-react
+-css
+-html
+-react-dom
+-react-scripts
+</h3>
+</td>
+<tr>
+</tr>
+</table>
+
 
 ### Instrucciones para correr el proyecto
 
