@@ -32,8 +32,10 @@ Application that thanks to the information obtained from the api (https://openwe
 <tr>
 </tr>
 </table>
+<br>
+<img align="center"  alt="Español" src="./src/Assets/Captura de pantalla.png" />
 
-
+<br>
 ### Instrucciones para correr el proyecto
 
 Desde la carpeta "homework" se pueden ejecutar los siguientes comandos:
