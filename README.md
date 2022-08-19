@@ -19,14 +19,7 @@ Aplicacion que gracias a la informacion obtenida de la api (https://openweatherm
 </td>
 <td>
 <h3 align = "left">
-Application that thanks to the information obtained from the api (https://openweathermap.org) it is possible to search for a city and obtain weather data which is used to render charts with the temperature and cloudiness values of the same with a small icon reflecting the current state.<br>
-<b>Employed technologies:</b><br>
--javaScript
--react
--css
--html
--react-dom
--react-scripts
+
 </h3>
 </td>
 <tr>
