@@ -2,10 +2,14 @@
   "expo": {
     "name": "clima",
     "slug": "clima",
+    "plataforms":[
+      "ios",
+      "android"
+    ],
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
+    "userInterfaceStyle": "Dark",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
@@ -22,6 +26,8 @@
     },
     "android": {
       "adaptiveIcon": {
+        "package": "com.loricode.mynative",
+        "versionCode": 1,
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
       }

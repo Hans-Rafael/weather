@@ -1,7 +1,6 @@
 import * as React from "react";
 import {
   View,
-  Text,
   ActivityIndicator,
   FlatList,
   TouchableOpacity,
@@ -16,7 +15,6 @@ export default function Home() {
   const navigation = useNavigation();
   const [cities, setCities] = useState([]);
   const [Search, setSearch] = useState("");
-  //const [isLoading, setLoading] = useState(true); //###
 
   function onSearch(ciudad) {
     fetch(
@@ -25,7 +23,6 @@ export default function Home() {
       .then((r) => r.json())
       .then((recurso) => {
         if (recurso.main !== undefined) {
-          //console.log("recurso *******", recurso);
           const ciudad = {
             long: recurso.coord.lon,
             lat: recurso.coord.lat,
