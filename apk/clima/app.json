@@ -2,14 +2,11 @@
   "expo": {
     "name": "clima",
     "slug": "clima",
-    "plataforms":[
-      "ios",
-      "android"
-    ],
+    "owner": "hansvekoni",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "userInterfaceStyle": "Dark",
+    "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
@@ -22,15 +19,12 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.loricode.clima"
     },
     "android": {
-      "adaptiveIcon": {
-        "package": "com.loricode.mynative",
-        "versionCode": 1,
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
-      }
+      "package": "com.loricode.clima",
+      "versionCode": 1
     },
     "web": {
       "favicon": "./assets/favicon.png"
